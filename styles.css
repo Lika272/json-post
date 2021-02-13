@@ -1,0 +1,28 @@
+table {
+	font: 11px/24px Verdana, Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+background-color:whitesmoke;
+border: 2px solid #CCC;
+	}
+.main{
+    background-color: darkred;
+    color: white;
+}
+th {
+	padding: 0 0.5em;
+	text-align: center;
+	}
+
+
+
+td {
+	border-bottom: 2px solid #CCC;
+	padding: 0 0.5em;
+	}
+
+
+
+td+td {
+	border-left: 2px solid #CCC;
+	text-align: center;
+	}
